@@ -27,5 +27,25 @@ $organizacoes = [
         'status' => 'Ativa',
         'certificacoes' => 'CNES'
     ],
+    // Organização em Ponta Grossa adicionada
+    [
+        'nome' => 'ONG Ponta Grossa Solidária',
+        'cnpj' => '11.222.333/0001-44',
+        'categoria' => 'Entidade Beneficente',
+        'estado' => 'PR',
+        'cidade' => 'Ponta Grossa',
+        'status' => 'Ativa',
+        'certificacoes' => 'CEBAS, Transparência'
+    ],
 ];
+
+// Carrega cadastros persistidos (data/organizacoes.json) e mescla
+$jsonFile = __DIR__ . '/data/organizacoes.json';
+if (file_exists($jsonFile)) {
+    $json = file_get_contents($jsonFile);
+    $extra = json_decode($json, true);
+    if (is_array($extra)) {
+        $organizacoes = array_merge($organizacoes, $extra);
+    }
+}
 ?>

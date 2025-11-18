@@ -1,0 +1,11 @@
+[
+    {
+        "nome": "teste",
+        "cnpj": "7777777777",
+        "categoria": "teste",
+        "estado": "teste",
+        "cidade": "teste",
+        "status": "Ativa",
+        "certificacoes": "teste"
+    }
+]
