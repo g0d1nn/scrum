@@ -39,7 +39,7 @@ include 'inc/header.php';
             <p>Verifique documentos públicos da organização (estatuto, demonstrativos) e solicite contato direto para confirmar projetos locais.</p>
 
             <div class="mt-3">
-                <a href="index.php" class="btn btn-secondary"><i class="fa fa-arrow-left me-1"></i> Voltar</a>
+                <a href="resultados.php" class="btn btn-secondary"><i class="fa fa-arrow-left me-1"></i> Voltar</a>
             </div>
         </div>
     <?php endif; ?>

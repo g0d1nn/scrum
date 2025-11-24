@@ -41,7 +41,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= ($currentPage === 'buscar.php') ? 'active fw-600' : '' ?>" href="index.php">
+                        <a class="nav-link <?= ($currentPage === 'resultados.php') ? 'active fw-600' : '' ?>" href="resultados.php">
                             <i class="fas fa-search me-1"></i> Buscar
                         </a>
                     </li>
