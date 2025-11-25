@@ -336,7 +336,7 @@ include 'inc/header.php';
         <hr style="border-color: rgba(11, 87, 164, 0.1);">
         <div class="row">
             <div class="col-12 text-center text-muted">
-                <p class="mb-0">&copy; 2024 ConectaONG. Todos os direitos reservados. | <a href="#" class="text-muted text-decoration-none" style="transition: color 0.2s;">Política de Privacidade</a> | <a href="#" class="text-muted text-decoration-none" style="transition: color 0.2s;">Termos de Uso</a></p>
+                <p class="mb-0">&copy; 2025 ConectaONG. Todos os direitos reservados. | <a href="#" class="text-muted text-decoration-none" style="transition: color 0.2s;">Política de Privacidade</a> | <a href="#" class="text-muted text-decoration-none" style="transition: color 0.2s;">Termos de Uso</a></p>
             </div>
         </div>
     </div>
